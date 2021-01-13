@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/components/Information.css'
 
 function Information() {
@@ -26,7 +27,9 @@ function Information() {
             Back
           </div>
           <div className="Information__next">
-            Pay
+            <Link to='/checkout/payment'>
+              Pay
+            </Link>
           </div>
         </div>
       </div>
