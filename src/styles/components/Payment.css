@@ -12,23 +12,23 @@
   justify-content: space-between;
   align-items: center;
 }
-.Payment-item .fas {
+.Payment__item .fas {
   margin: 0 0 0 10px;
   color: rgba(0,0,0,0.4);
   cursor: pointer;
 }
-.Payment-item button {
+.Payment__item button {
   background-color: transparent;
   border: none;
   outline: none;
 }
-.Payment-element {
+.Payment__element {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #eee;
 }
-.Payment-element h4 {
+.Payment__element h4 {
   margin: 0;
 }
