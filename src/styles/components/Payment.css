@@ -4,10 +4,10 @@
   grid-row-gap: 1.5em;
   display: grid;
 }
-.Payment-back {
+.Payment__back {
   margin: 10px 0 0 0;
 }
-.Payment-item {
+.Payment__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
